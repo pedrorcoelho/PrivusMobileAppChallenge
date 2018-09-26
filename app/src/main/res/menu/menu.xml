@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/group_auto_sync"
+        android:title="@string/auto_sync">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/disable_auto_sync"
+                    android:title="@string/disable_auto_sync" />
+                <item
+                    android:id="@+id/enable_auto_sync"
+                    android:title="@string/enable_auto_sync" />
+                <item
+                    android:id="@+id/sync"
+                    android:title="@string/sync_contacts" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/group_voip"
+        android:title="@string/voip_group">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/only_voip"
+                    android:title="@string/show_only_voip" />
+                <item
+                    android:id="@+id/show_all"
+                    android:title="@string/show_all" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/group_delete"
+        android:title="@string/delete">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/delete_contacts"
+                    android:title="@string/delete_all_contacts" />
+                <item
+                    android:id="@+id/delete_history"
+                    android:title="@string/delete_history" />
+                <item
+                    android:id="@+id/delete_all"
+                    android:title="@string/delete_all" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/add_dummy_data"
+        android:title="@string/add_dummy_data_short" />
+
+</menu>

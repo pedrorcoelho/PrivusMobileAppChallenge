@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="#8de8ffd9"
+    android:foreground="@drawable/highlight_pressed"
+    android:focusable="true"
+    android:clickable="true">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/avatar_container">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="gone"
+            tools:background="@color/colorAccent"
+            android:id="@+id/avatar"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_background"
+            tools:text="NA"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/circle"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/avatar_container"
+        android:layout_toRightOf="@id/avatar_container"
+        android:layout_toStartOf="@id/voip_txt"
+        android:layout_toLeftOf="@id/voip_txt"
+        android:layout_alignWithParentIfMissing="true"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        tools:text="name"
+        android:id="@+id/line1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_toEndOf="@id/avatar_container"
+        android:layout_toRightOf="@id/avatar_container"
+        android:layout_toStartOf="@id/voip_txt"
+        android:layout_toLeftOf="@id/voip_txt"
+        android:layout_alignWithParentIfMissing="true"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        tools:text="12 345 67 89"
+        android:id="@+id/line2"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voip"
+        android:textColor="@color/green"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/voip_txt"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/line2"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#8d000000"/>
+
+
+</RelativeLayout>

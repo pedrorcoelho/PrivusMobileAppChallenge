@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Privus Mobile App Challenge</string>
+    <string name="title_history">History</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="are_you_sure_delete">Are you sure you want to delete this contact?</string>
+    <string name="delete">Delete</string>
+    <string name="are_you_sure_delete_all_contacts">Are you sure you want to delete all contacts?</string>
+    <string name="no_phone_contacts">No phone contacts!</string>
+    <string name="add_dummy_data">Add dummy data for testing?</string>
+    <string name="import_contacts">Import Contacts</string>
+    <string name="are_you_sure_import">Import phone contacts?</string>
+    <string name="voip">voip:</string>
+    <string name="no_data">No data</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="missing_name">Name missing</string>
+    <string name="one_contact_requiered">At least one contact is required</string>
+    <string name="delete_all_contacts">Delete contacts</string>
+    <string name="delete_history">Delete history</string>
+    <string name="are_you_sure_delete_all_history">Are you sure you want to delete history?</string>
+    <string name="show_only_voip">Show only voip</string>
+    <string name="show_all">Show all contacts</string>
+    <string name="add_dummy_data_short">Add dummy data</string>
+    <string name="no_data_voip">No data (only voip)</string>
+    <string name="synchronizing">Synchronizing contacts..</string>
+    <string name="sync_contacts">Sync contacts</string>
+    <string name="enable_auto_sync">Enable auto sync</string>
+    <string name="disable_auto_sync">Disable auto sync</string>
+    <string name="auto_sync">Contacts sync</string>
+    <string name="voip_group">Voip</string>
+    <string name="delete_all">Delete all data</string>
+    <string name="are_you_sure_delete_all_data">Are you sure you want to delete all data?</string>
+</resources>
